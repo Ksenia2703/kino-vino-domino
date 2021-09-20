@@ -1,0 +1,141 @@
+.bg-teneant-novitas {
+	background-color: #FFFFFF;
+	width: 100%;
+	background-size: cover;
+}
+
+.common-img {
+	width: 100%;
+	display: flex;
+	padding: 0 30px;
+	margin-top: 10px;
+	position: relative;
+
+	@media (max-width: 1199px) {
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.wrapper-common-vodka {
+	display: flex;
+	width: 60%;
+	margin-bottom: 14px;
+
+	@media (max-width: 1199px) {
+		width: 100%;
+	}
+	@media (max-width: 767px) {
+		flex-direction: column;
+
+	}
+}
+
+.common-vodka1 {
+	width: 50%;
+	
+	@media (max-width: 1199px) {
+		width: 50%;
+	}
+	@media (max-width: 991px) {
+
+	}
+	@media (max-width: 767px) {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	@media (max-width: 320px) {
+
+	}
+}
+.mr {
+	margin-right:10px;
+}
+.ml {
+	margin-left:10px;
+
+	@media (max-width: 767px) {
+		margin-left: 0px;
+	}
+}
+
+.vodka-1 {
+	width: 100%;
+}
+
+.common-txt {
+	background-color: #FFFFFF;
+	width: 40%;
+	z-index: 1;
+	position: absolute;
+	right: 40px;
+	border: 2px solid #b49383;
+	@media (min-width: 1301px) {
+		top: 12%;
+	}
+	@media (max-width: 1300px) {
+		top: 12%;
+	}
+	@media (max-width: 1223px) {
+		top: 7%;
+	}
+	@media (max-width: 1199px) {
+		position: relative;
+		width: 100%;
+		margin: 10px 0;
+		right: auto;
+	}
+	@media (max-width: 991px) {
+
+	}
+	@media (max-width: 767px) {
+
+	}
+	@media (max-width: 320px) {
+
+	}
+}
+
+.title-vodka-txt {
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5%;
+
+	@media (max-width: 1199px) {
+		font-size: 40px;
+	}
+	@media (max-width: 991px) {
+		font-size: 40px;
+	}
+	@media (max-width: 767px) {
+		font-size: 30px;
+		margin-top: 3%;
+	}
+
+}
+
+.vodka-txt-1 {
+	font-family: $font-family;
+	font-size: 20px;
+	margin:5% 5%;
+	max-height: 70%;
+
+	@media (max-width: 991px) {
+		font-size: 16px;
+		margin: 3% 3%;
+	}
+	@media (max-width: 767px) {
+		font-size: 16px;
+		margin: 3% 3%;
+	}
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+
+
+
+

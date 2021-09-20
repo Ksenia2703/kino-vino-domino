@@ -1,0 +1,59 @@
+
+.bg_our_guests {
+	background: rgb(211, 200, 195);
+	background: linear-gradient(
+		180deg,
+		rgba(140, 124, 116, 1) 5%,
+		rgba(238, 235, 234, 1) 93%,
+		rgba(255, 255, 255, 1) 97%,
+		rgba(255, 255, 255, 1) 100%
+	);
+	width: 100%;
+}
+
+.title_our_guests {
+	font-family: "Marck Script", cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 20px;
+	color: #1c1c1c;
+
+	@media (max-width: 991px) {
+		font-size: 40px;
+	}
+	@media (max-width: 767px) {
+		font-size: 35px;
+	}
+	@media (max-width: 320px) {
+		font-size: 30px;
+	}
+	@media (max-width: 220px) {
+		font-size: 20px;
+	}
+}
+
+.slider_img {
+	max-width: 100% !important;
+}
+
+.slick-next {
+	right: 0 !important;
+}
+.slick-prev {
+	left: 0 !important;
+	z-index: 99999;
+}
+
+.slider_img {
+	background: #8c7c74;
+}
+
+.slider-our-guests {
+	background: #8c7c74;
+}
+
+.slider-our-guests div {
+	background: #bbb1ad;
+}
+

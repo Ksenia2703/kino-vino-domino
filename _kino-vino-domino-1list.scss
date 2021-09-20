@@ -1,0 +1,52 @@
+
+.dg-kino-vino-domino-1list {
+	background: url('img/photoeditorsdk-export1.png') no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+
+	@media (max-width: 991px) {
+		height: 70vh;
+	}
+}
+
+
+
+.title-kino-vino-domino-1list {
+	font-size: 65px;
+	font-family: 'Marck Script', cursive;
+	color: white;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+	@media (max-width: 991px) {
+		font-size: 45px;
+	}
+	@media (max-width: 767px) {
+		font-size: 35px;
+	}
+}
+
+.txt--kino-vino-domino-1list {
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	color: white;
+	font-family: $font-family;
+
+	@media (max-width: 991px) {
+		font-size: 35px;
+	}
+	@media (max-width: 767px) {
+		font-size: 25px;
+	}
+}

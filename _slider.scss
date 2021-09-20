@@ -1,0 +1,25 @@
+.slider__item > div::before {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.common-block-menu .slider__wrapper {
+    background-color: white;
+}
+
+
+.common-block-menu .slider {
+    max-width: 100%;
+    //padding: 0px 30px;
+    padding-left: 35px;
+    padding-right: 30px;
+
+    @media (max-width:400px) {
+        padding-right: 40px;
+    }
+}
